@@ -1,0 +1,550 @@
+{
+  "users": [
+    {
+      "_id": "user_admin_01",
+      "name": "Eleanor Vance (Admin)",
+      "email": "admin@ecommerce.com",
+      "password": "$2b$10$9JCLnUs8S2wbFLmOskhv6ufYJhKQ0fVxe4ww8QZNWzwJ0xMThaTeS",
+      "role": "ADMIN",
+      "createdAt": "2026-01-01T10:00:00.000Z"
+    },
+    {
+      "_id": "user_customer_01",
+      "name": "Julian Hayes",
+      "email": "user@ecommerce.com",
+      "password": "$2b$10$7is1m7yziAqYUHN8CVHdUezvcFnOOwWWBL5Dl8F.S84neJOKSWWiO",
+      "role": "USER",
+      "createdAt": "2026-01-15T14:30:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod_001",
+      "name": "Aura Studio Wireless Over-Ear Headphones",
+      "description": "Custom 40mm beryllium acoustic drivers with adaptive hybrid active noise cancellation, aerospace-grade memory foam cushions, and 38-hour battery longevity.",
+      "price": 289,
+      "category": "Audio & Acoustics",
+      "image": "/src/assets/images/product_audio_headphones_1790145772052.jpg",
+      "stock": 17,
+      "rating": 4.7,
+      "numReviews": 3,
+      "featured": true,
+      "createdAt": "2026-02-01T09:00:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_1790148563379_c2obmv",
+          "userId": "user_customer_01",
+          "userName": "Julian Hayes",
+          "rating": 5,
+          "title": "Studio reference caliber with timeless ergonomics",
+          "comment": "Tested these over two weeks in our acoustic studio. Exceptional transient response and zero listening fatigue.",
+          "createdAt": "2026-09-23T07:29:23.379Z"
+        },
+        {
+          "_id": "rev_001_2",
+          "userId": "user_rev_002",
+          "userName": "Elena Vance",
+          "rating": 5,
+          "title": "Superb craftsmanship and tactile buttons",
+          "comment": "No plasticky creaks or loose tolerances. Tactile knurled controls respond instantly and the noise cancellation is whisper-quiet.",
+          "createdAt": "2026-02-28T11:20:00Z"
+        },
+        {
+          "_id": "rev_001_3",
+          "userId": "user_rev_003",
+          "userName": "Marcus Thorne",
+          "rating": 4,
+          "title": "Premium soundstage, solid battery life",
+          "comment": "Battery genuinely hits ~38 hours on a single charge. Included braided audio cable is supple and tangle-free.",
+          "createdAt": "2026-03-05T09:45:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_002",
+      "name": "Minimalist Ceramic Pour-Over Dripper Set",
+      "description": "Handcrafted stoneware dripper with precision spiral internal ridges, paired with a heat-resistant 600ml borosilicate glass carafe for optimal thermal brewing stability.",
+      "price": 64,
+      "category": "Coffee & Kitchen",
+      "image": "/src/assets/images/product_coffee_dripper_1790145784806.jpg",
+      "stock": 24,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": true,
+      "createdAt": "2026-02-05T11:20:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_002_1",
+          "userId": "user_customer_01",
+          "userName": "Julian Hayes",
+          "rating": 5,
+          "title": "Thermal stability and tactile Mino stoneware",
+          "comment": "The spiral internal ridges create an even flow rate that brings out floral notes in light-roast washed Ethiopians. The matte exterior glaze is a joy to touch every morning.",
+          "createdAt": "2026-02-18T08:15:00Z"
+        },
+        {
+          "_id": "rev_002_2",
+          "userId": "user_rev_004",
+          "userName": "Kenji Takahashi",
+          "rating": 5,
+          "title": "Flawless morning ritual artifact",
+          "comment": "Paired with 600ml borosilicate carafe, pouring feels calibrated and deliberate. Looks gorgeous on open kitchen shelving.",
+          "createdAt": "2026-03-01T14:10:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_003",
+      "name": "Atelier Titanium Mechanical Chronograph",
+      "description": "Brushed Grade-5 titanium case featuring sapphire crystal front and exhibition caseback, 28,800 vph automatic column-wheel chronograph movement with 54-hour power reserve.",
+      "price": 380,
+      "category": "Timepieces",
+      "image": "/src/assets/images/product_chronograph_watch_1790145796963.jpg",
+      "stock": 9,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": true,
+      "createdAt": "2026-02-10T08:15:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_003_1",
+          "userId": "user_customer_01",
+          "userName": "Julian Hayes",
+          "rating": 5,
+          "title": "Featherweight Grade-5 titanium case",
+          "comment": "The matte brushed titanium finish doesn’t attract smudges. Chronograph pushers have a crisp mechanical click with zero wobble.",
+          "createdAt": "2026-02-22T16:00:00Z"
+        },
+        {
+          "_id": "rev_003_2",
+          "userId": "user_rev_005",
+          "userName": "David Mercer",
+          "rating": 5,
+          "title": "Exhibition sapphire back is breathtaking",
+          "comment": "Seeing the column-wheel engage through the sapphire caseback reminds you of genuine mechanical horology. Kept +2s/day accuracy across two weeks.",
+          "createdAt": "2026-03-08T19:25:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_004",
+      "name": "Solid Walnut Architectural Lounge Chair",
+      "description": "Sustainably harvested American walnut sculpted through five-axis precision milling, finished with hand-rubbed organic oil and upholstered in high-durability Danish wool.",
+      "price": 620,
+      "category": "Furniture & Living",
+      "image": "/src/assets/images/hero_ecommerce_showcase_1790145758681.jpg",
+      "stock": 7,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": true,
+      "createdAt": "2026-02-12T15:45:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_004_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this solid walnut architectural lounge chair exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_004_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_005",
+      "name": "Architectural Brushed Brass Task Lamp",
+      "description": "Counterbalanced weighted cantilever arm with seamless 2700K warm-spectrum LED dimming. Designed for glare-free surface illumination across executive desks.",
+      "price": 175,
+      "category": "Lighting & Workspace",
+      "image": "/src/assets/images/brass_task_lamp_1790146777247.jpg",
+      "stock": 14,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-02-15T12:00:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_005_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this architectural brushed brass task lamp exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_005_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_006",
+      "name": "Japanese Stoneware Incense Burner Vessel",
+      "description": "Slip-cast refractory stoneware vessel with removable solid brass pin-holder. Accommodates standard Japanese bamboo and pressed charcoal sticks.",
+      "price": 42,
+      "category": "Home Accents",
+      "image": "/src/assets/images/incense_burner_1790146792103.jpg",
+      "stock": 35,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-02-18T10:30:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_006_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this japanese stoneware incense burner vessel exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_006_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_007",
+      "name": "Anodized 75% Custom Mechanical Keyboard",
+      "description": "Gasket-mounted CNC aluminum enclosure, pre-lubed silent linear switches, hot-swappable PCB, and double-shot PBT keycaps with sound-dampening poron foam.",
+      "price": 220,
+      "category": "Lighting & Workspace",
+      "image": "/src/assets/images/product_audio_headphones_1790145772052.jpg",
+      "stock": 12,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": true,
+      "createdAt": "2026-02-20T14:10:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_007_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this anodized 75% custom mechanical keyboard exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_007_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_008",
+      "name": "Fine Merino Wool Heavyweight Throw Blanket",
+      "description": "Woven in Biella, Italy using 100% extrafine 19.5 micron merino wool. Double-faced weave in heathered granite grey with delicately fringed selvage edges.",
+      "price": 145,
+      "category": "Furniture & Living",
+      "image": "/src/assets/images/hero_ecommerce_showcase_1790145758681.jpg",
+      "stock": 20,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-02-22T16:00:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_008_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this fine merino wool heavyweight throw blanket exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_008_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_009",
+      "name": "Handmade Vegetable-Tanned Leather Folio",
+      "description": "Full-grain Tuscan bridle leather tailored for 14-inch laptops, document notebooks, and stylus instruments. Develops a rich organic patina with daily handling.",
+      "price": 95,
+      "category": "Accessories",
+      "image": "/src/assets/images/leather_folio_1790146829207.jpg",
+      "stock": 22,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-02-25T11:00:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_009_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this handmade vegetable-tanned leather folio exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_009_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_010",
+      "name": "Heavyweight 400 GSM French Terry Crewneck",
+      "description": "Custom-knit combed organic cotton spun with tight loopback reverse fleece. Ribbed collar and double-needle reinforced cuffs for lasting structural drape.",
+      "price": 110,
+      "category": "Apparel",
+      "image": "/src/assets/images/hero_ecommerce_showcase_1790145758681.jpg",
+      "stock": 19,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-03-01T09:45:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_010_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this heavyweight 400 gsm french terry crewneck exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_010_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_011",
+      "name": "Cast Iron Dutch Oven with Matte Enamel",
+      "description": "Heavy gauge cast iron core providing superior thermal inertia and moisture circulation. Compatible with induction, gas, and oven temperatures up to 500°F.",
+      "price": 160,
+      "category": "Coffee & Kitchen",
+      "image": "/src/assets/images/dutch_oven_1790146844504.jpg",
+      "stock": 16,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-03-05T13:20:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_011_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this cast iron dutch oven with matte enamel exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_011_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "_id": "prod_012",
+      "name": "Tactile Wireless Aluminum Volume Dial & Macropad",
+      "description": "Precision knurled rotary encoder with stepped haptic detents and 3 assignable tactile mechanical switches for media, scrubbing, and desktop workflows.",
+      "price": 78,
+      "category": "Lighting & Workspace",
+      "image": "/src/assets/images/product_audio_headphones_1790145772052.jpg",
+      "stock": 25,
+      "rating": 5,
+      "numReviews": 2,
+      "featured": false,
+      "createdAt": "2026-03-08T15:00:00.000Z",
+      "reviews": [
+        {
+          "_id": "rev_prod_012_1",
+          "userId": "user_cust_arch",
+          "userName": "Soren Lindqvist",
+          "rating": 5,
+          "title": "Exceptional material pedigree",
+          "comment": "The finish on this tactile wireless aluminum volume dial & macropad exceeds expectations. Pure tactile quality and enduring aesthetics.",
+          "createdAt": "2026-02-25T10:00:00Z"
+        },
+        {
+          "_id": "rev_prod_012_2",
+          "userId": "user_cust_arch2",
+          "userName": "Camille Dubois",
+          "rating": 5,
+          "title": "Quiet luxury done right",
+          "comment": "Shipped in pristine condition with bespoke packaging. Fits seamlessly into our minimalist architectural studio.",
+          "createdAt": "2026-03-02T13:40:00Z"
+        }
+      ]
+    }
+  ],
+  "carts": [
+    {
+      "_id": "cart_1790146307279_gfqkkp",
+      "userId": "user_customer_01",
+      "items": [],
+      "updatedAt": "2026-09-23T07:07:09.297Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ORD-78419",
+      "userId": "user_customer_01",
+      "userName": "Julian Hayes",
+      "userEmail": "user@ecommerce.com",
+      "items": [
+        {
+          "productId": "prod_001",
+          "name": "Aura Studio Wireless Over-Ear Headphones",
+          "price": 289,
+          "image": "/src/assets/images/product_audio_headphones_1790145772052.jpg",
+          "quantity": 1
+        },
+        {
+          "productId": "prod_002",
+          "name": "Minimalist Ceramic Pour-Over Dripper Set",
+          "price": 64,
+          "image": "/src/assets/images/product_coffee_dripper_1790145784806.jpg",
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Julian Hayes",
+        "email": "user@ecommerce.com",
+        "phone": "+1 (555) 234-8901",
+        "address": "742 Evergreen Terrace, Apt 4B",
+        "city": "Portland",
+        "state": "OR",
+        "pincode": "97201"
+      },
+      "paymentMethod": "Demo Online Payment",
+      "subtotal": 353,
+      "shippingFee": 0,
+      "totalAmount": 353,
+      "status": "Processing",
+      "createdAt": "2026-09-21T18:49:05.783Z",
+      "updatedAt": "2026-09-22T18:49:05.783Z"
+    },
+    {
+      "_id": "ORD-96683",
+      "userId": "user_customer_01",
+      "userName": "Julian Hayes",
+      "userEmail": "user@ecommerce.com",
+      "items": [
+        {
+          "productId": "prod_001",
+          "name": "Aura Studio Wireless Over-Ear Headphones",
+          "price": 289,
+          "image": "/src/assets/images/product_audio_headphones_1790145772052.jpg",
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Julian Hayes",
+        "email": "user@ecommerce.com",
+        "phone": "+15551234567",
+        "address": "100 Ocean Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "pincode": "94101"
+      },
+      "paymentMethod": "Demo Online Payment",
+      "subtotal": 289,
+      "shippingFee": 0,
+      "totalAmount": 289,
+      "status": "Confirmed",
+      "createdAt": "2026-09-23T07:06:51.959Z",
+      "updatedAt": "2026-09-23T07:06:51.959Z"
+    },
+    {
+      "_id": "ORD-51678",
+      "userId": "user_customer_01",
+      "userName": "Julian Hayes",
+      "userEmail": "user@ecommerce.com",
+      "items": [
+        {
+          "productId": "prod_002",
+          "name": "Minimalist Ceramic Pour-Over Dripper Set",
+          "price": 64,
+          "image": "/src/assets/images/product_coffee_dripper_1790145784806.jpg",
+          "quantity": 2
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Julian Hayes",
+        "email": "user@ecommerce.com",
+        "phone": "+15551234567",
+        "address": "100 Ocean Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "pincode": "94101"
+      },
+      "paymentMethod": "Demo Online Payment",
+      "subtotal": 128,
+      "shippingFee": 0,
+      "totalAmount": 102.4,
+      "promoCode": "SPRING20",
+      "discountAmount": 25.6,
+      "status": "Confirmed",
+      "createdAt": "2026-09-23T07:07:09.297Z",
+      "updatedAt": "2026-09-23T07:07:09.297Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "_id": "wish_1790146711651_kzwixx",
+      "userId": "user_customer_01",
+      "productIds": [
+        "prod_002",
+        "prod_003"
+      ],
+      "updatedAt": "2026-09-23T07:07:22.571Z"
+    }
+  ]
+}
